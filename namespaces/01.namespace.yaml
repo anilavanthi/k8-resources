@@ -1,4 +1,4 @@
-kind: Namespaces
 apiVersion: v1
-metadat:
- Nmae: kubernetes
+kind: Namespace
+metadata:
+  name: kubernetes
