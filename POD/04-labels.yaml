@@ -1,0 +1,13 @@
+apiversion: v1
+kind: pod
+metadata: 
+ name: label
+ labels:
+  app: nginx
+  Environment: DEV
+  Course: kubernetes
+  Duration: 6weeks
+spec:
+ containers:
+ - name: label
+   image: nginx  
