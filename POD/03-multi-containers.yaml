@@ -8,4 +8,5 @@ spec:
    image: nginx
  - name: almalinux
    image: almalinux:8   
-   command: ["slepp","300"]
+   command: [ "sleep" ]
+   args: [ "infinity" ]
